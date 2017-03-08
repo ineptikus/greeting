@@ -54,11 +54,14 @@ exports.handle = function handle(client) {
 
   client.runFlow({
     classifications: {
+      // Add a Stream for goodbye and assign it a Step
       goodbye: 'goodbye',
-      greeting: 'greeting'
+       // Add a greeting handler with a reference to the greeting stream
+       greeting: 'greeting'
     },
     streams: {
       goodbye: handleGoodbye,
+      // Add a Stream for greetings and assign it a Step
       greeting: handleGreeting,
       main: 'onboarding',
       onboarding: [sayHello],
