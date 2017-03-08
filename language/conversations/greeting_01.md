@@ -1,16 +1,16 @@
 ---
 title: greeting_01
-timestamp: 2016-09-25T20:11:01.194431228-07:00
+timestamp: 2017-03-08T14:18:55.24447642+05:30
 ---
 
 Hello
 * greeting
 
-< Hello world, I mean Human
+< Hello. How are you?
 * greeting
 
-Goodbye
+Good bye
 * goodbye
 
-< See you later!
+< Bye
 * goodbye
